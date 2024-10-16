@@ -3,6 +3,9 @@ const url = 'https://raw.githubusercontent.com/XxAndressaxX/graficos/refs/heads/
 async function vizualizarInformacoes() {
     const res = await fetch(url)
     const dados = await res.json()
+
+    const quantidade_estudantes=
+    
     const quantidade_alunos = (dados.numero_alunos)
     const numero_votos = (dados.total_votos)
     const numero_aula_Victor = (dados.total_aula_profVictor)
