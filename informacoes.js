@@ -12,7 +12,7 @@ async function vizualizarInformacoes() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que em uma pesquisa feita pelo <span>IBGE</span> realizada com <span>${quantidade_estudantes} jovens </span> apenas <span>${porcentagem_querem_faculdade} </span> dos jovens querem ingressar na faculdade? Isso representa <span> ${quantidade_alunos_interessados} <span/> Além disso, dentre os cursos disponíveis, os da área da saúde são desejados por  <span>${alunos_querem_saude}<span/>}
+    paragrafo.innerHTML = `Você sabia que em uma pesquisa feita pelo <span>IBGE</span> realizada com <span>${quantidade_estudantes} jovens </span> apenas <span>${porcentagem_querem_faculdade} </span> dos jovens querem ingressar na faculdade? Isso representa <span> ${quantidade_alunos_interessados} <span/> Além disso, dentre os cursos disponíveis, os da área da saúde são desejados por  <span>${alunos_querem_saude}<span/>`
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
