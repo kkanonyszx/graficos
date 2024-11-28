@@ -12,7 +12,6 @@ async function vizualizarInformacoes() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que em uma pesquisa <span>realizada pelo IBGE</span> feita com <span>${quantidade_estudantes} jovens </span> apenas <span>${porcentagem_querem_faculdade}% </span> querem ingressar na faculdade? <br> Isso representa <span> ${quantidade_alunos_interessados} adolescentes </span>. Além disso, dentre os cursos disponíveis, os da <span>área da saúde</span> são desejados por <span>${alunos_querem_saude} jovens. </span>`
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
